@@ -12,7 +12,7 @@ class Homepage  extends Component {
 
     <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
       <h1 data-aos="fade-up">Your Trusted Community NGO</h1>
-      <h2 data-aos="fade-up" data-aos-delay="400">We are team of talented community volunteeers that have your back</h2>
+      <h2 data-aos="fade-up" data-aos-delay="400">Team of Community  paralegals</h2>
       <div data-aos="fade-up" data-aos-delay="800">
         <a href="#about" class="btn-get-started scrollto">Get Started</a>
       </div>
@@ -52,6 +52,34 @@ class Homepage  extends Component {
 
       <div class="col-lg-2 col-md-4 col-6">
         <img src="assets/img/clients/yes-logo.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="500"/>
+      </div>
+
+      <div class="col-lg-2 col-md-4 col-6">
+        <img src="assets/img/clients/CAOSA.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="500"/>
+      </div>
+
+      <div class="col-lg-2 col-md-4 col-6">
+        <img src="assets/img/clients/download.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="500"/>
+      </div>
+
+      <div class="col-lg-2 col-md-4 col-6">
+        <img src="assets/img/clients/foundation.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="500"/>
+      </div>
+
+      <div class="col-lg-2 col-md-4 col-6">
+        <img src="assets/img/clients/joburg.jpeg" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="500"/>
+      </div>
+
+      <div class="col-lg-2 col-md-4 col-6">
+        <img src="assets/img/clients/lawtonsafrica.jpeg" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="500"/>
+      </div>
+
+      <div class="col-lg-2 col-md-4 col-6">
+        <img src="assets/img/clients/legalaid.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="500"/>
+      </div>
+
+      <div class="col-lg-2 col-md-4 col-6">
+        <img src="assets/img/clients/mecaht.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="500"/>
       </div>
 
     </div>
@@ -103,7 +131,7 @@ class Homepage  extends Component {
 
     <div class="row">
       <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-xl-start" data-aos="fade-right" data-aos-delay="150">
-        <img src="assets/img/communitysummary.jpg" alt="" class="img-fluid"/>
+        <img src="assets/img/logo.jpeg" alt="" class="img-fluid" style={{width:"20%"}} />
       </div>
 
       <div class="col-xl-7 d-flex align-items-stretch pt-4 pt-xl-0" data-aos="fade-left" data-aos-delay="300">
@@ -184,6 +212,24 @@ class Homepage  extends Component {
       </div>
 
       <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+        <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+          <div class="icon"><i class="bx bx-tachometer"></i></div>
+          <h4 class="title"><a href=""> Socia justice </a></h4>
+          <p class="description"> The idea of social justice is that all people should have equal access to wealth, health, well-being, justice, privileges, and opportunity regardless of their legal, political, economic, or other circumstances.</p>
+        </div>
+      </div>
+
+
+      <div class="col-md-6 col-lg-6 d-flex align-items-stretch mb-5 mb-lg-0">
+        <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+          <div class="icon"><i class="bx bx-tachometer"></i></div>
+          <h4 class="title"><a href=""> Socio economic issues &amp; Socio economic Rights </a></h4>
+          <p class="description">Factors that have negative influence on an individuals' economic activity including: lack of education, cultural and religious discrimination, overpopulation, unemployment and corruption. <br/> Socio-economic rights are those rights that give people access to certain basic needs necessary for human beings to lead a dignified life. </p>
+        </div>
+      </div>
+      
+
+      <div class="col-md-6 col-lg-6 d-flex align-items-stretch mb-5 mb-lg-0">
         <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
           <div class="icon"><i class="bx bx-world"></i></div>
           <h4 class="title"><a href="">Facilitate Family Law Programs  </a></h4>
@@ -206,7 +252,7 @@ class Homepage  extends Component {
         <div class="card" style={{backgroundImage: `url("assets/img/legaladvice.png")` }}data-aos="fade-up" data-aos-delay="100">
           <div class="card-body">
             <h5 class="card-title"><a href="">Legal Advice</a></h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
+            {/* <p class="card-text">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p> */}
             <div class="read-more"><a href="#"><i class="icofont-arrow-right"></i> Read More</a></div>
           </div>
         </div>
