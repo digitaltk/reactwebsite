@@ -26,7 +26,7 @@ class Homepage extends Component {
                 <img
                   src="assets/img/humanrights.jpg"
                   class="img-fluid animated"
-                  alt=""
+                  alt="Dobsonville Humans Rights Center"
                 />
               </div>
             </div>
@@ -79,7 +79,7 @@ class Homepage extends Component {
 
                 <div class="col-lg-2 col-md-4 col-6">
                   <img
-                    src="assets/img/clients/yes-logo.png"
+                    src="assets/img/clients/publicinterest.png"
                     class="img-fluid"
                     alt=""
                     data-aos="zoom-in"
@@ -129,7 +129,7 @@ class Homepage extends Component {
 
                 <div class="col-lg-2 col-md-4 col-6">
                   <img
-                    src="assets/img/clients/lawtonsafrica.jpeg"
+                    src="assets/img/clients/blacksash.jpg"
                     class="img-fluid"
                     alt=""
                     data-aos="zoom-in"
@@ -162,8 +162,8 @@ class Homepage extends Component {
           {/* <!-- End Clients Section --> */}
 
           {/* <!-- ======= About Us Section ======= --> */}
-
-          <section id="about" class="about">
+          <div className="#about"></div>
+          <section id="about" className="about">
             <div class="container">
               <div class="section-title" data-aos="fade-up">
                 <h2>About Us</h2>
@@ -177,13 +177,12 @@ class Homepage extends Component {
                     elimination of violence against women, men, children,
                     elderly people and people leaving with disabilities with the
                     focus of human rights violation and victim empowerment and
-                    we also provide pro-bono services in association with
-                    LAWTONS Africa
+                    we also provide pro-bono services.
                   </p>
                   <ul>
                     <h4>Vision</h4>
                     <li>
-                      <i class="ri-check-double-line"></i> Building Communities
+                      <i class="ri-check-double-line"></i> Building communities
                       in to better society and access to justice
                     </li>
                     <h4>Mission</h4>
@@ -202,8 +201,7 @@ class Homepage extends Component {
                 >
                   <p>
                     We are a certified non-profitable organization that provide
-                    pro-bono services in association with LAWTONS Africa and
-                    offer accredited training programs{" "}
+                    pro-bono services and offer accredited training programs{" "}
                   </p>
                   <p>
                     accredited by SASSETA ETQA &amp; Accreditation Number
@@ -824,8 +822,7 @@ class Homepage extends Component {
                     elimination of violence against women, men, children,
                     elderly people and people leaving with disabilities with the
                     focus of human rights violation and victim empowerment and
-                    we also provide pro-bono services in association with
-                    LAWTONS Africa.
+                    we also provide pro-bono services in association.
                   </p>
                 </div>
               </div>
@@ -921,8 +918,7 @@ class Homepage extends Component {
                     <p>
                       the non-profitable organization was developed with the
                       focus of human rights violation and victim empowerment and
-                      we also provide pro-bono services in association with
-                      LAWTONS Africa.
+                      we also provide pro-bono services.
                     </p>
 
                     <div class="social-links">
